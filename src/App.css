@@ -1,0 +1,76 @@
+:root {
+  @import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+  font-family: 'Space Mono', monospace;
+  font-size: 1.1rem;
+}
+
+body {
+  background-color: #34344A;
+  color: #EBF2FA;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+input[type=text],
+select {
+  border: none;
+  font-size: 1.1rem;
+  background-color: hsl(240, 17%, 30%);
+  color: #EBF2FA;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=text]:focus,
+select:focus {
+  border: none;
+
+}
+
+button[type=submit] {
+  font-size: 1.1rem;
+  width: 100%;
+  background-color: #519872;
+  border: none;
+  color: #34344A;
+  padding: 14px 20px;
+  margin: 8px 2px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all .1s ease;
+}
+
+button[type=submit]:hover {
+  background-color: hsl(148, 30%, 40%);
+}
+
+button[type=submit]:disabled {
+  cursor: default;
+  border: none;
+  background-color: #5198724f;
+  color: #34344A;
+
+}
+
+.App {
+  border-radius: 5px;
+  padding: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  background: #A6E1FA;
+  color: #00072D;
+  margin: 5px;
+
+  text-align: center;
+  border-radius: 5px;
+}

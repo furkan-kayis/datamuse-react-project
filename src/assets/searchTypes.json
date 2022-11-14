@@ -1,0 +1,101 @@
+ [
+    { "description": "Means like", "code": "ml" },
+    { "description": "Sounds like", "code": "sl" },
+    { "description": "Spelled like", "code": "sp" },
+    {
+        "description": "Related",
+        "code": "rel_",
+        "codes": [
+            {
+                "code": "jja",
+                "description":
+                    "Popular nouns modified by the given adjective, per Google Books Ngrams",
+                "example": "gradual → increase"
+            },
+            {
+                "code": "jjb",
+                "description":
+                    "Popular adjectives used to modify the given noun, per Google Books Ngrams",
+                "example": "beach → sandy"
+            },
+            {
+                "code": "syn",
+                "description": "Synonyms (words contained within the same WordNet synset)",
+                "example": "ocean → sea"
+            },
+            {
+                "code": "trg",
+                "description":
+                    "Triggers (words that are statistically associated with the query word in the same piece of text.)",
+                "example": "cow → milking"
+            },
+            
+            {
+                "code": "ant",
+                "description":
+                    "Antonyms (per WordNet)",
+                "example": "late → early"
+            },
+            {
+                "code": "spc",
+                "description":
+                    "\"Kind of\" (direct hypernyms, per WordNet)",
+                "example": "gondola → boat"
+            },
+            {
+                "code": "gen",
+                "description": "(direct hyponyms, per WordNet)",
+                "example": "boat → gondola"
+            },
+            {
+                "code": "com",
+                "description":
+                    "\"Comprises\" (direct holonyms, per WordNet)",
+                "example": "car → accelerator"
+            },
+            {
+                "code": "par",
+                "description":
+                    "\"Part of\" (direct meronyms, per WordNet)",
+                "example": "trunk → tree"
+            },
+            {
+                "code": "bga",
+                "description":
+                    "Frequent followers (w′ such that P(w′|w) ≥ 0.001, per Google Books Ngrams)",
+                "example": "wreak → havoc"
+            },
+            {
+                "code": "bgb",
+                "description": "(w′ such that P(w|w′) ≥ 0.001, per Google Books Ngrams)",
+                "example": "havoc → wreak"
+            },
+            {
+                "code": "rhy",
+                "description":
+                    "Rhymes (\"perfect\" rhymes, per RhymeZone)",
+                "example": "spade → aid"
+            },
+            
+            {
+                "code": "nry",
+                "description":
+                    "Approximate rhymes (per RhymeZone)",
+                "example": "forest → chorus"
+            },
+            {
+                "code": "hom",
+                "description":
+                    "Homophones (sound-alike words)",
+                "example": "course → coarse"
+            },
+            {
+                "code": "cns",
+                "description": "Consonant match",
+                "example": "sample → simple"
+            }
+            
+            
+        ]
+    }
+]
