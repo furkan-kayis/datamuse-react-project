@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/datamuse-react-project/static/css/main.436912dd.css",
+    "main.js": "/datamuse-react-project/static/js/main.6e3eec9a.js",
+    "index.html": "/datamuse-react-project/index.html",
+    "main.436912dd.css.map": "/datamuse-react-project/static/css/main.436912dd.css.map",
+    "main.6e3eec9a.js.map": "/datamuse-react-project/static/js/main.6e3eec9a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.436912dd.css",
+    "static/js/main.6e3eec9a.js"
+  ]
+}
